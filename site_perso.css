@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Oswald:wght@300;400;500&display=swap');
+
+body{
+    margin: 0;
+    background-color: rgb(62, 117, 134);
+}
+header{
+    margin-top: -15px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.753);
+    display: block;
+    
+}
+
+header ul li{
+    color: honeydew;
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 35px;
+    position: relative;
+    right: -750px;
+    margin-top: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.contenu1_1 img{
+    height: 40em;
+    width: 100%;
+    z-index: 0;
+}
+.parag1{
+    background-color: rgba(0, 0, 0, 0.575);
+    text-shadow: blue;
+    box-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(255, 255, 255);
+position: relative;
+bottom: 28em;
+left: 13%;
+    color: white;
+    text-align: center;
+    z-index: 2;
+    width: 70%;
+}
+
+.parag1 h2{
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue; 
+}
+.contenu1 h1{
+margin-top: -2em;
+margin-left: 12em;
+position: relative;
+bottom: 2em;
+color: white;
+font-family: 'Caveat Brush', cursive;
+font-family: 'Oswald', sans-serif;
+letter-spacing: 1em;
+}
+.contenu2{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(0, 0, 0);
+    margin-top: -134px;
+    height: 110vh;
+}
+
+.contenu2_1{
+    width: 30%;
+
+}
+.contenu2_2{
+    width: 30%;
+
+}
+.contenu2_3{
+    width: 30%;
+
+}
+.parag2{
+    margin-top: 120px;
+    color: rgb(205, 208, 209);
+    width: 100%;
+}
+.contenu3{
+    height: 50vh;
+    background-color: white;
+}
+footer{
+    height: 30vh;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+}
+.proposdenous h1{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-left: -6.5em;
+}
+.proposdenous p{
+
+    margin-left: -10em;
+    width: 35%;
+
+}
+.reseausociaux ul li{
+    list-style: none;
+    display: inline-block;
+letter-spacing: 1em;
+margin-top: 10em;
+}
+.reseausociaux ul li a{
+    display: inline-block;
+    font-size: 1.5em;
+    color: honeydew;
+    list-style: none;
+}
+
+/* footer img{
+    width: 100%;
+    height: 10em;
+} */
+
+/*--------------------- contenu1_1 carroussel----------------*/
